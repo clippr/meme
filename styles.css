@@ -1,0 +1,109 @@
+body {
+    background-color: darkred;
+}
+
+.header {
+    width: 98%;
+    height: 70px;
+    margin: 0px 1% 1% 1%;
+    background-color: grey;
+    border: solid black 3px;
+    border-radius: 8px;
+    position: fixed;
+    top: 0px;
+}
+
+.header p {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    color: red;
+}
+
+.header img {
+    display: inline-block;
+    float: right;
+    width: 40px;
+    margin: 15px 5px 15px 10px;
+    border-radius: 1000px;
+}
+
+.header img:hover {
+    background-color: blue;
+    transition:all 1s ease;
+}
+
+.navbar {
+    position: fixed;
+    top: 90px;
+    background-color: grey;
+    border: solid black 3px;
+    border-radius: 10px;
+    margin-left: 1%; 
+    width: 20%;
+    height: 130px;
+   
+}
+
+.navbar a {
+    text-decoration: none;
+    color: red;
+}
+
+.navbar a:hover {
+    color: #0000C6;
+    transition:all .2s ease;
+    font-size: 20px;
+}
+
+.navbar p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #0DB7FF;
+}
+
+.smwidth {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mainmemes {
+    border: solid black 3px;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 90px;
+    margin-right: 1%;
+    margin-left: 23%
+}
+
+.memes {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.back2top {
+    background-color: white;
+    border-radius: 1000px;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+.back2top img {
+    width: 89%;
+    height: 89%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.back2top:hover {
+    background-color: blue;
+}
